@@ -5,7 +5,6 @@ var buttonEl = document.getElementsByClassName('saveBtn');
 var rows = document.getElementsByClassName("row");
 var currentTime = dayjs().hour();
 
-
 $(document).ready(function () {
 
   $(".time-block").each(function () {
@@ -23,7 +22,6 @@ $(document).ready(function () {
 
 });
 
-
 function saveLS() {
   var rowId = $(this).parent().attr('id');
   var description = $(this).siblings('.description').val();
@@ -31,10 +29,8 @@ function saveLS() {
 
 };
 
-
 var description = $(this).siblings('.description').val();
 var rowId = $(this).parent().attr('id');
-
 
 //how to make it work???
 function renderInfo() {
