@@ -2,13 +2,15 @@
 Third-Party APIs Challenge: Work Day Scheduler
 
 ## Description
-
+A simple calendar application that allows a user to save events for each hour of the day.
 
 ## Installation
 N/A
 
 ## Usage
+Great application to use daily to log tasks for the day. You can see what hours have passed (grey color), the tasks for the actual hour (red), and the future tasks(green).
 
+![Screenshot of application](assets/Screenshot%202023-01-30%20at%2010.11.31%20AM.png)
 
 ## Credits
 N/A
